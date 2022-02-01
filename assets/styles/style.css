@@ -46,8 +46,14 @@ text-align: center;
 }
 .social-info{
 color:#F05918;
+display: inline-block;
+width: 30%;
+margin:auto;
 /*pick color from any website https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka/related?hl=ru */
 /*=====================*/
+}
+.social-info > p {
+  text-align: center;
 }
 .text-header > p{
   font-size: 35px;
