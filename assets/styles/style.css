@@ -55,6 +55,12 @@ margin:auto;
 .social-info > p {
   text-align: center;
 }
+.text-header>p::before{
+  content: "@";
+}
+.text-header>p::after{
+  content: "!";
+}
 .text-header > p{
   font-size: 35px;
   text-align: center;
